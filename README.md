@@ -8,13 +8,13 @@ Copy the PumpSa folder into your CakePHP app/Plugin folder
 ## Start
 To use the Datatables View Helper, include it in your Controller of choice as a $helper
 
-```
+```php
 public $helpers = array('PumpSa.DataTable');
 ```
 
 ## Configuration Options
 To initialize a Smart Admin Widget with a DataTable:
-```
+```php
   $configArray = array(
 	"TableTitle" => "Awesome Table",
 	"WidgetDelete" => false,
